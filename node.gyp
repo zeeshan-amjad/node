@@ -728,12 +728,12 @@
             }],
             [ 'node_use_perfctr=="false"', {
               'inputs': [ 'src/noperfctr_macros.py' ]
-            }],
-            [ 'node_debug_lib=="false"', {
-              'inputs': [ 'tools/nodcheck_macros.py' ]
-            }],
-            [ 'node_debug_lib=="true"', {
-              'inputs': [ 'tools/dcheck_macros.py' ]
+            # }],
+            # [ 'node_debug_lib=="false"', {
+            #   'inputs': [ 'tools/nodcheck_macros.py' ]
+            # }],
+            # [ 'node_debug_lib=="true"', {
+            #   'inputs': [ 'tools/dcheck_macros.py' ]
             }]
           ],
           'action': [
